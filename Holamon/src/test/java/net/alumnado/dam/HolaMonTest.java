@@ -30,4 +30,17 @@ class HolaMonTest {
             System.out.println("El 2 es mayor que el 1");
         }
     }
+
+    @Test
+    public void isGreaterTest2() {
+
+        helloWorld = new HolaMon();
+        System.out.println("La Prueba 2");
+        if (helloWorld.esMayor(3,4)){
+            System.out.println("El 1 es mayor que el 2");
+        }
+        else {
+            System.out.println("El 2 es mayor que el 1");
+        }
+    }
 }
